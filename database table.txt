@@ -1,0 +1,5 @@
+user --->
+ create table user(uid varchar(20) primary key, password varchar(20));
+
+registration ------>
+ create table registration(pid int primary key,first_name varchar(20),middle_name varchar(20),last_name varchar(20),address varchar(100),phone bigint(10),date date,age int,sex varchar(10),blood_group varchar(10),weight varchar(10));
